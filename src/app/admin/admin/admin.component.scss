@@ -1,0 +1,42 @@
+.row{
+  margin-top: 4%;
+  .side{
+    height: 100vh;
+    background-color: #E8D3D3;;
+}
+}
+li{
+  list-style: none;
+  color: black;
+}
+.house{
+  background-color:#F5F5F5 ;
+  .rounds{
+    height:80vh;
+    background-color: #c4989f;
+    width: 20%;
+    .account{
+      background-color: #c4989f;
+      border-bottom: 1px solid #EDEDED;
+      // &:hover{
+        // background-color: #E8D3D3;
+      // }
+    }
+    .user{
+      // background-color:#E3CACA;
+      &:hover{
+        background-color:  #b48f95;
+      }
+    }
+  }
+  .rounding{
+    width: 75%;
+    height:80vh;
+    // background-color:#886e7b;
+   background-color: #c4989f;
+  //  background-color:#FCFF6C;
+  //  background-color: #25283D;
+
+  }
+
+}

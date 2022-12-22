@@ -1,0 +1,44 @@
+<div class="col-10">
+  <div class="admin w-25 m-5">
+    <input type="file" alt="" (change)="fileEvent($event)" name="myfile" ><br><br>
+
+ <label for="">Category</label><br>
+ <select name=""  class="w-50" [(ngModel)]="category">
+   <option value="Home">Home</option>
+   <option value="Beauty">Beauty</option>
+   <option value="Fashion">Fashion</option>
+   <option value="Lifestyle">Lifestyle</option>
+ </select><br><br>
+
+ <textarea name="" id="" cols="25" rows="2"   [(ngModel)]="title">
+
+</textarea>
+<br>
+<input type="date" name="" id="" [(ngModel)]="date">
+<br>
+<br>
+<select name="" id="" [(ngModel)]="trend">
+  <option value="baby/maternity">baby/maternity</option>
+  <option value="fall fashion">fall fashion</option>
+  <option value="hair care">hair care</option>
+  <option value="home renovation series">home renovation series</option>
+  <option value="holiday gift guides">holiday gift guides</option>
+  <option value="travel, you tube">travel, you tube</option>
+  <option value="trending now">trending now</option>
+  <option value="UNCATEGORIZED">UNCATEGORIZED</option>
+</select>
+<br>
+<br>
+ <textarea name="" id="" cols="25" rows="6"   [(ngModel)]="content">
+
+</textarea>
+
+<br>
+<!-- <div>
+  <a href="">View More</a>
+</div> -->
+<br>
+<button class="btn btn-dark" style="background-color: #c4989f ;" (click)="post()">post</button>
+
+  </div>
+</div>

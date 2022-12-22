@@ -1,0 +1,142 @@
+<app-nav></app-nav>
+<br>
+<div class="all">
+  <div class="mt-5 hali">
+    <h1 class="halima"> Halima's Blog</h1>
+    <p class="beau">BEAUTY, FASHION & LIFESTYLE BLOG</p>
+  </div>
+
+  <div id="demo" class="carousel slide caroo" data-ride="carousel">
+
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../../assets/images/caro1.png" alt="Los Angeles" width="1100" height="500">
+        <div class="carousel-caption">
+          <div class="inner">
+           <h3 class="nord mt-2">NORDSTROM ANNIVERSARY SALE 2022 </h3>
+           <p class="happy">Happy SATURDAY! The Nordstrom Anniversary Sale is HERE and it's open to the PUBLIC, so anyone can shop! </p>
+            <a href="" class="link">VIEW POST</a>
+          </div>
+         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../../assets/images/caro2.jpg" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <div class="inner">
+            <h3 class="nord mt-4">POSTPARTUM MUST HAVES | FOR MAMA</h3>
+            <p class="happy">Hi friends, I can't believe it's already been 10 MONTHS since Layla was born.... like how?! I've had this post</p>
+             <a href="" class="link">VIEW POST</a>
+           </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../../assets/images/caro3.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <div class="inner">
+            <h3 class="nord mt-4">FATHER’S DAY GIFT GUIDE | 2022</h3>
+            <p class="happy">Happy Tuesday friends! We are still dealing with illness at our house, but finally on the mend! </p>
+             <a href="" class="link">VIEW POST</a>
+           </div>
+        </div>
+      </div>
+    </div>
+
+
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+
+<div>
+  <div class="fine" >
+   <div>
+    <div class="image" >
+      <img src="../../../assets/images/beauty.png" alt="" class="pic">
+
+      <div class="b">
+        <p class="be">BEAUTY</p>
+      </div>
+    </div>
+   </div>
+
+
+   <div>
+    <div class="image" >
+      <img src="../../../assets/images/fashion.png" alt="" class="pic">
+      <div class="b">
+        <p class="be">FASHION</p>
+      </div>
+    </div>
+   </div>
+
+    <div>
+      <div class="image" >
+        <img src="../../../assets/images/life.png" alt="" class="pic">
+        <div class="b">
+          <p class="be">LIFESTYLE</p>
+        </div>
+      </div>
+    </div>
+
+  <div>
+    <div class="image" >
+      <img src="../../../assets/images/travel.png" alt="" class="pic">
+      <div class="b">
+        <p class="be">TRAVEL</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+  <br> <br> <br>
+
+<div>
+  <div *ngFor="let item of home; let i=index;">
+
+    <div>
+
+      <div class=" d-flex  eg  ">
+      <div class="card " >
+        <img class="card-img-top"  alt="Card image" src={{item.img}} height="300"  style="width:100%;"  *ngIf="image!='' ">
+        </div>
+        <div class="card-body secondhalf ">
+          <h4 class="card-title head" >{{item.title1}}</h4>
+          <h6 class="entry-time" >{{item.date1}}</h6>
+          <p >{{item.trend1}}</p>
+          <p class="card-text news ">{{item.content1}}</p>
+          <a href="#" class="stretched-link more"  >Read more</a>
+          <div *ngIf="(service.who=='Admin')">
+            <div class="d-flex justify-content-around">
+              <div>
+                <button class="btn btn-danger" (click)="dele(i)">del</button>
+              </div>
+              <div>
+                <button class="btn btn-primary" (click)="edit(i)">edit</button>
+              </div>
+            </div>
+           </div>
+        </div>
+
+
+    </div>
+
+  </div>
+  </div>
+</div>
+
+
+</div>

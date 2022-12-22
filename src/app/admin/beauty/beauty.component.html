@@ -1,0 +1,55 @@
+<app-nav></app-nav>
+<br>
+<div class="all">
+  <div class="mt-5 hali">
+    <h1 class="halima"> Halima's Blog</h1>
+    <p class="beau">BEAUTY, FASHION & LIFESTYLE BLOG</p>
+  </div>
+
+  <br>
+
+  <div>
+    <h1 class="beauty">
+      Beauty
+    </h1>
+  </div>
+  <br>
+
+  <div class="bodyy">
+    <div class="divide">
+     <div  *ngFor="let item of beauty">
+      <div class="square">
+        <div class="card">
+
+          <img class="card-img-top" src="{{item.img}} "  height="320" alt="Card image"  *ngIf="image!='' "
+           alt="" >
+          <div class="card-body">
+            <p class="card-text title">{{item.title1}} </p>
+            <div class="d-flex justify-content-between">
+
+
+            </div>
+
+               <div *ngIf="(service.who=='Admin')">
+                <div class="d-flex justify-content-around">
+                  <div>
+                    <button class="btn btn-danger" (click)="dele(i)">del</button>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary" (click)="edit(i)">edit</button>
+                  </div>
+                </div>
+               </div>
+
+          </div>
+        </div>
+     </div>
+        <br>  <br>  <br>
+
+      </div>
+
+    </div>
+  </div>
+
+
+

@@ -1,0 +1,455 @@
+.all{
+
+  margin-top: 5%;
+.hali{
+.halima{
+  display: flex;
+  justify-content: center;
+  font-family: dancing script;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration-line: overline;
+}
+.beau{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: rgb(119, 119, 119);
+  font-family: sans-serif;
+
+}
+}
+.beauty{
+  color: #333333;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+.bodyy{
+  padding-left: 7%;
+  padding-right: 7%;
+
+  .divide{
+    display: flex;
+    justify-content: space-between;
+    display: flex !important;
+ flex-wrap: wrap !important;
+ width: 100%;
+
+    .square{
+      margin-bottom: 5%;
+      .card{
+        width:350px;
+        height: 400px
+       }
+    }
+  }
+}
+}
+
+@media (max-width:1280px) {
+.all{
+  .bodyy{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+}
+@media (max-width:1240px) {
+.all{
+  .bodyy{
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+}
+@media (max-width:1200px) {
+.all{
+  .bodyy{
+    .divide{
+
+      .square{
+        .card{
+          width:330px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:1140px) {
+.all{
+  .bodyy{
+    padding-left: 3%;
+    padding-right: 3%;
+    .divide{
+
+      .square{
+        .card{
+          width:320px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:1070px) {
+.all{
+  .bodyy{
+    padding-left: 2%;
+    padding-right: 2%;
+    .divide{
+
+      .square{
+        .card{
+          width:300px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:1000px) {
+.all{
+  .bodyy{
+    padding-left: 12%;
+    padding-right: 7%;
+    .divide{
+
+      .square{
+        .card{
+          width:330px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:890px) {
+.all{
+  .bodyy{
+    padding-left: 10%;
+    padding-right: 6%;
+  }
+}
+}
+@media (max-width:860px) {
+.all{
+  .bodyy{
+    padding-left: 8%;
+    padding-right: 5%;
+  }
+}
+}
+@media (max-width:800px) {
+.all{
+  .bodyy{
+    padding-left: 6%;
+    padding-right: 3%;
+    .divide{
+
+      .square{
+        .card{
+          width:330px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:770px) {
+.all{
+  .bodyy{
+    padding-left: 5%;
+    padding-right: 2%;
+    .divide{
+
+      .square{
+        .card{
+          width:320px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:720px) {
+.all{
+  .bodyy{
+    padding-left: 6%;
+    padding-right: 2%;
+    .divide{
+
+      .square{
+        .card{
+          width:290px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:660px) {
+.all{
+  .bodyy{
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+}
+}
+@media (max-width:650px) {
+.all{
+  .bodyy{
+    padding-left: 3%;
+    padding-right: 2%;
+  }
+}
+}
+@media (max-width:635px) {
+.all{
+  .bodyy{
+    .divide{
+    .square{
+        .card{
+          width:280px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:615px) {
+.all{
+  .bodyy{
+    padding-left: 3%;
+    padding-right: 2%;
+    .divide{
+
+      .square{
+        .card{
+          width:270px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:590px) {
+.all{
+  .bodyy{
+    padding-left: 4.5%;
+    padding-right: 2%;
+    .divide{
+      .square{
+        .card{
+          width:250px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:555px) {
+.all{
+  .bodyy{
+    padding-left: 3%;
+    padding-right: 2%;
+    .divide{
+
+      .square{
+        .card{
+          width:250px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:540px) {
+.all{
+  .bodyy{
+    padding-left: 20%;
+    padding-right: 3%;
+    .divide{
+
+      .square{
+        margin-bottom: 15%;
+        .card{
+          width:330px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:480px) {
+.all{
+  .bodyy{
+    padding-left: 18%;
+    padding-right: 3%;
+  }
+}
+}
+@media (max-width:460px) {
+.all{
+  .bodyy{
+    padding-left: 15%;
+    padding-right: 3%;
+  }
+}
+}
+@media (max-width:445px) {
+.all{
+  .bodyy{
+    padding-left: 12%;
+    padding-right: 3%;
+
+  }
+}
+}
+@media (max-width:415px) {
+.all{
+  .bodyy{
+    padding-left: 10%;
+    padding-right: 3%;
+
+  }
+}
+}
+@media (max-width:400px) {
+.all{
+  .bodyy{
+    padding-left: 14%;
+    padding-right: 3%;
+    .divide{
+
+      .square{
+        margin-bottom: 15%;
+        .card{
+          width:300px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:390px) {
+.all{
+  .bodyy{
+    padding-left: 10%;
+    padding-right: 3%;
+  }
+}
+}
+@media (max-width:360px) {
+.all{
+  .bodyy{
+    padding-left: 10%;
+    padding-right: 3%;
+    .divide{
+      .square{
+        .card{
+          width:280px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:333px) {
+.all{
+  .bodyy{
+    padding-left: 7%;
+    padding-right: 3%;
+    .divide{
+      .square{
+        .card{
+          width:280px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:315px) {
+.all{
+  .bodyy{
+    padding-left: 12%;
+    padding-right: 3%;
+    .divide{
+      .square{
+        .card{
+          width:250px;
+          height: 405px
+         }
+      }
+    }
+  }
+}
+}
+@media (max-width:300px) {
+.all{
+  .bodyy{
+    padding-left: 8%;
+    padding-right: 3%;
+  }
+}
+}
+@media (max-width:285px) {
+.all{
+  .bodyy{
+    padding-left: 5%;
+    padding-right: 1%;
+  }
+}
+}
+@media (max-width:270px) {
+.all{
+  .bodyy{
+    padding-left: 4%;
+  }
+}
+}
+@media (max-width:268px) {
+.all{
+  .bodyy{
+    padding-left: 3%;
+  }
+}
+}
+@media (max-width:260px) {
+.all{
+  .bodyy{
+    padding-left: 0%;
+    .divide{
+
+      .square{
+        margin-bottom: 0%;
+        .card{
+          width:300px;
+          height: 400px
+         }
+      }
+    }
+  }
+}
+}
+
+

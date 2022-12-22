@@ -1,0 +1,110 @@
+.all{
+
+  margin-top: 5%;
+.hali{
+.halima{
+  display: flex;
+  justify-content: center;
+  font-family: dancing script;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration-line: overline;
+}
+.beau{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: rgb(119, 119, 119);
+  font-family: sans-serif;
+
+}
+}
+.eg{
+  .secondhalf{
+    .entry-time{
+      display: flex;
+      justify-content: center;
+      font-family: lato,sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+      color:  rgb(179, 162, 146);
+      &:hover{
+        color:  rgb(119, 119, 119);
+      }
+    }
+    .head{
+      display: flex;
+      justify-content: center;
+      font-family: serif;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: normal;
+      color:  rgb(176, 155, 109);
+      font-style: italic;
+      &:hover{
+        color:  rgb(119, 119, 119);
+      }
+    }
+    .trend{
+      display: flex;
+      justify-content: center;
+      font-family: dancing script;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .cardd{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3%;
+      img{
+        width: 60%;
+      }
+    }
+    .news{
+      font-family: serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 2;
+      color:  rgb(0, 0, 0);
+      width: 100% !important;
+      height: 100px;
+    }
+  }
+
+}
+
+}
+@media (max-width:1000px) {
+.all{
+  .eg{
+.cardd{
+  img{
+    width: 80% !important;
+  }
+}
+  }
+  }
+}
+@media (max-width:750px) {
+.all{
+  .eg{
+.cardd{
+  img{
+    width: 90% !important;
+  }
+}
+  }
+  }
+}
+@media (max-width:500px) {
+.all{
+  .eg{
+.cardd{
+  img{
+    width: 100% !important;
+  }
+}
+  }
+  }
+}
